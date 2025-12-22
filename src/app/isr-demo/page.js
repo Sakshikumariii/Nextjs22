@@ -17,6 +17,9 @@ export default async function ISRPage() {
       <h2>{post.title}</h2>
       <p>{post.body}</p>
 
+
+      
+
       <p>Generated at:</p>
       <p>{new Date().toLocaleTimeString()}</p>
     </main>
